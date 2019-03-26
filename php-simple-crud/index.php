@@ -30,7 +30,7 @@
 			<th>id</th>
 			<th>column1</th>
 			<th>column2</th>
-			<th></th>
+			<th>actions</th>
 		</tr>
 		<?php
 			$query = "SELECT * FROM tbl_sample";
@@ -43,7 +43,7 @@
 					<td><?php echo $rows['id']; ?></td>
 					<td><?php echo $rows['column1']; ?></td>
 					<td><?php echo $rows['column2']; ?></td>
-					<td></td>
+					<td><a href="functions/delete.php?id=<?php echo $rows['id']; ?>">Delete</a></td>
 				</tr>
 				<?php
 			}
