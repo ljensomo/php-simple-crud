@@ -1,7 +1,7 @@
 <?php
 	$server = "localhost";
 	$username = "root";
-	$password = "root";
+	$password = "";
 	$database = "db_sample";// pangalan ng database
 
 	try {
