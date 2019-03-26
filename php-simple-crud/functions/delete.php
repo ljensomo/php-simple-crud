@@ -4,7 +4,8 @@
 	include("connection.php");
 
 	# kunin ang mga value
-	# $$variablename = id ng gusto mong i delete
+	# dahil walang method na ginamit GET ang default
+	# $variablename = id ng gusto mong i delete
 	$id = $_GET['id'];
 
 	# nakaparameters yung i dedelete

@@ -43,7 +43,15 @@
 					<td><?php echo $rows['id']; ?></td>
 					<td><?php echo $rows['column1']; ?></td>
 					<td><?php echo $rows['column2']; ?></td>
-					<td><a href="functions/delete.php?id=<?php echo $rows['id']; ?>">Delete</a></td>
+					<td>
+						<!-- On progress pa -->
+						<a href="#">Edit</a>
+						<!-- 
+							lalagay mo sa link yung file na pupuntahan
+							isasama mo sa link and id para alam mo kung anong record ang idedelete
+						-->
+						<a href="functions/delete.php?id=<?php echo $rows['id']; ?>">Delete</a>
+					</td>
 				</tr>
 				<?php
 			}
