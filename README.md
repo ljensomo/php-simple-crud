@@ -1,2 +1,2 @@
 # php-simple-crud
-sobrang simpleng crud
+sobrang simpleng php crud
